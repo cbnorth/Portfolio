@@ -636,6 +636,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Chris/Sites/portfolio/staging/.gitignore",
 		"/Users/Chris/Sites/intentionalFutures/templates/purpose-template.jade",
 		"/Users/Chris/Sites/intentionalFutures/contents/scripts/people.js",
 		"/Users/Chris/Sites/portfolio/staging/contents/fonts/MonoSocialIconsFont-1.10.svg",
@@ -762,8 +763,7 @@
 		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_maze.md",
 		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_tv.md",
 		"/Users/Chris/Sites/intentionalFutures/contents/sass/play.scss",
-		"/Users/Chris/Sites/intentionalFutures/contents/scripts/play_feature.js",
-		"/Users/Chris/Sites/intentionalFutures/contents/play/best_band_never_snapsnots.md"
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/play_feature.js"
 	],
 	"find":
 	{
@@ -1142,11 +1142,11 @@
 						"settings":
 						{
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1971.0,
+						"translation.y": 2039.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1259,7 +1259,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 327.0,
