@@ -1,0 +1,83 @@
+header {
+    position: absolute;
+}
+.section {
+    background-color: #fff;
+    text-align: center;
+
+    h1 {
+        a {
+            color: #fff;
+        }
+    }
+
+    .project {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        z-index: 1;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+
+        .project_card {
+            width: 100%;
+            height: 85%;
+            transform-style: preserve-3d;
+            transition: all .33s linear;
+
+            &.flipped {
+                transform: rotateY(180deg);
+            }
+        }
+
+        .face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+
+            &.face_back {
+                display: block;
+                transform: rotateY(180deg);
+                box-sizing: border-box;
+                padding: 10px;
+                color: white;
+                text-align: left;
+            }
+        }
+
+        img {
+            width: 80%;
+        }
+
+        @include breakpoint(med) {
+            width: 700px;
+            height: 700px;
+        }
+    }
+
+    &.if {
+        background-color: #44dbef;
+    }
+
+    &.chefinthehat {
+        background-color:rgba(29,97,162,1);
+    }
+
+    &.starbucks {
+        background-color: #006341;
+    }
+
+    &.bspot {
+        background-color: #F5821F;
+    }
+
+    &.glg {
+        background-color: #00B0D3;
+    }
+
+    &.tmo {
+        background-color: #e20074;
+    }
+}

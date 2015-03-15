@@ -1,0 +1,24 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Chris Burke",
+    "owner": "Chris Burke",
+    "description": "Portfolio of Seattle Based Interactive Developer Chris Burke"
+  },
+  "plugins": [
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true,
+    "basedir": "contents"
+  },
+  "markdown": {
+    "smartLists": true,
+    "widont": false,
+    "smartypants": true
+  }
+}

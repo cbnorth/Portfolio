@@ -1,0 +1,1338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"btn",
+				"btn_show_info"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"scrip",
+				"script"
+			],
+			[
+				"if",
+				"iframeTarget"
+			],
+			[
+				"ply",
+				"playInit"
+			],
+			[
+				"on",
+				"onload"
+			],
+			[
+				"init",
+				"initInsta"
+			],
+			[
+				"ini",
+				"initInsta"
+			],
+			[
+				"play",
+				"playInit"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"emb",
+				"embedCode"
+			],
+			[
+				"fp-",
+				"fp-viewing-5"
+			],
+			[
+				"active",
+				"activate_video"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"secondar",
+				"secondary_font"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fp",
+				"fp-tableCell"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"slide",
+				"slide_caption"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mobile",
+				"mobile_data"
+			],
+			[
+				"ms",
+				"msieversion"
+			],
+			[
+				"backgroun",
+				"background-origin"
+			],
+			[
+				"is",
+				"isTouchDevice"
+			],
+			[
+				"scroll",
+				"scroll_down"
+			],
+			[
+				"sc",
+				"scrollDown"
+			],
+			[
+				"secon",
+				"secondary_font"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"challenge",
+				"challenge_image"
+			],
+			[
+				"second",
+				"secondary_font_medium"
+			],
+			[
+				"so",
+				"solution"
+			],
+			[
+				"ch",
+				"challenge"
+			],
+			[
+				"solu",
+				"solution_image"
+			],
+			[
+				"su",
+				"solution"
+			],
+			[
+				"dark",
+				"dark_background"
+			],
+			[
+				"slide_",
+				"slide_asset"
+			],
+			[
+				"case",
+				"caseStudy"
+			],
+			[
+				"chal",
+				"challenge_image"
+			],
+			[
+				"lo",
+				"loadedSection"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"nu",
+				"numWords"
+			],
+			[
+				"vid",
+				"video_container"
+			],
+			[
+				"in",
+				"instagram"
+			],
+			[
+				"nex",
+				"nextWord"
+			],
+			[
+				"num",
+				"numWords"
+			],
+			[
+				"ro",
+				"rotating_heading"
+			],
+			[
+				"we",
+				"who-we-are"
+			],
+			[
+				"feature",
+				"featureType"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"he",
+				"heroImage"
+			],
+			[
+				"content",
+				"content_block"
+			],
+			[
+				"ext",
+				"extraCopy"
+			],
+			[
+				"extra",
+				"extraTitle"
+			],
+			[
+				"extr",
+				"extraCopy"
+			],
+			[
+				"blo",
+				"block_header"
+			],
+			[
+				"tab_conte",
+				"tab_content_container"
+			],
+			[
+				"tabs",
+				"tabsMobileNav"
+			],
+			[
+				"purpose",
+				"purpose_tabs"
+			],
+			[
+				"activ",
+				"activeTab"
+			],
+			[
+				"s",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"mob",
+				"mobileHeight"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"this",
+				"thisPage"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"d",
+				"dark_background"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bio",
+				"bio_ModalBottom"
+			],
+			[
+				"last",
+				"lastFour"
+			],
+			[
+				"bioModal",
+				"bio_Modal"
+			],
+			[
+				"mo",
+				"modal"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"inn",
+				"innerW"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"na",
+				"nav_contents"
+			],
+			[
+				"word",
+				"wordShowing"
+			],
+			[
+				"close",
+				"close_button"
+			],
+			[
+				"pop",
+				"pop_up"
+			],
+			[
+				"out",
+				"out_of_focus"
+			],
+			[
+				"mod",
+				"modalWidth"
+			],
+			[
+				"tres",
+				"tresW"
+			],
+			[
+				"window",
+				"windowW"
+			],
+			[
+				"win",
+				"windowW"
+			],
+			[
+				"pare",
+				"parentLeft"
+			],
+			[
+				"tes",
+				"tresPadding"
+			],
+			[
+				"dos",
+				"dosW"
+			],
+			[
+				"do",
+				"dosW"
+			],
+			[
+				"paren",
+				"parentBio"
+			],
+			[
+				"un",
+				"unoPadding"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"coy",
+				"copy_color"
+			],
+			[
+				"P",
+				"pop_up_showing"
+			],
+			[
+				"pop_u",
+				"pop_up_showing"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"page",
+				"pageurl"
+			],
+			[
+				"inta",
+				"instagram"
+			],
+			[
+				"copy",
+				"copy_color"
+			],
+			[
+				"contact",
+				"contact-if-layout"
+			],
+			[
+				"mobi",
+				"mobile_nav_open"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"pe",
+				"peopleDir"
+			],
+			[
+				"contac",
+				"contactDocs"
+			],
+			[
+				"typo",
+				"typogrify"
+			],
+			[
+				"Cont",
+				"contactDocs"
+			],
+			[
+				"sell",
+				"sellingPoint"
+			],
+			[
+				"set",
+				"setHeight"
+			],
+			[
+				"tab",
+				"tabContent"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"cop",
+				"copy_color"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"co",
+				"copyright"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"scro",
+				"scrollTotal"
+			],
+			[
+				"pr",
+				"primary-brand"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bran",
+				"primary-brand"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "build/scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/scripts.jade",
+			"settings":
+			{
+				"buffer_size": 189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contents/scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.json",
+			"settings":
+			{
+				"buffer_size": 458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.jade",
+			"settings":
+			{
+				"buffer_size": 5281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/layout.jade",
+			"settings":
+			{
+				"buffer_size": 1402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contents/scripts/script.js",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Chris/Sites/intentionalFutures/templates/who-we-are.jade",
+			"settings":
+			{
+				"buffer_size": 1507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contents/scss/global_styles.scss",
+			"settings":
+			{
+				"buffer_size": 1515,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Chris/Sites/intentionalFutures/templates/purpose-template.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/people.js",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/MonoSocialIconsFont-1.10.svg",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/2D2629_5_0.svg",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/2D2629_4_0.svg",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/2D2629_3_0.svg",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/2D2629_2_0.svg",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/2D2629_1_0.svg",
+		"/Users/Chris/Sites/portfolio/staging/contents/fonts/2D2629_0_0.svg",
+		"/Users/Chris/Sites/portfolio/staging/templates/scripts.jade",
+		"/Users/Chris/Sites/intentionalFutures/config.json",
+		"/Users/Chris/Sites/intentionalFutures/templates/scripts.jade",
+		"/Users/Chris/Sites/portfolio/staging/config.json",
+		"/Users/Chris/Sites/portfolio/staging/templates/index.jade",
+		"/Users/Chris/Sites/portfolio/staging/templates/layout.jade",
+		"/Users/Chris/Sites/portfolio/staging/contents/scripts/script.js",
+		"/Users/Chris/Sites/portfolio/staging/contents/scss/_mixins.scss",
+		"/Users/Chris/Sites/portfolio/staging/contents/scss/global_styles.scss",
+		"/Users/Chris/Sites/portfolio/staging/contents/scss/styles.scss",
+		"/Users/Chris/Sites/intentionalFutures/package.json",
+		"/Users/Chris/Sites/intentionalFutures/contents/index.json",
+		"/Users/Chris/Sites/portfolio/staging/contents/index.json",
+		"/Users/Chris/Sites/intentionalFutures/templates/index.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/styles.scss",
+		"/Users/Chris/Sites/intentionalFutures/templates/people.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/globalstyles.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/celenza_lauren_mae.md",
+		"/Users/Chris/Sites/intentionalFutures/templates/join-if.jade",
+		"/Users/Chris/Sites/intentionalFutures/templates/visit-if.jade",
+		"/Users/Chris/Sites/intentionalFutures/templates/play.jade",
+		"/Users/Chris/Sites/intentionalFutures/templates/portfolio.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/.htaccess",
+		"/Users/Chris/Sites/intentionalFutures/templates/case_study.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/home.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/css/lazyload.css",
+		"/Users/Chris/Sites/intentionalFutures/templates/play_feature_template_video.jade",
+		"/Users/Chris/Sites/intentionalFutures/templates/play_feature_template.jade",
+		"/Users/Chris/Sites/intentionalFutures/templates/layout.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/empathy_agent.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/donation_innovation.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/mobile_data.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_dominoes.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/college_knowledge.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/mobile_chronicles.md",
+		"/Users/Chris/Sites/intentionalFutures/Gruntfile.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/casestudy.js",
+		"/Users/Chris/Sites/intentionalFutures/build/scripts/casestudy.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/instafeed.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/case_study.scss",
+		"/Users/Chris/Sites/intentionalFutures/templates/social_block.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/jablonsky_stephen.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/amrofell_greg.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/people.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/link.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/_mixins.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/big_history_project.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/graphite.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/inbloom_data_driven_education.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/individual_learning_maps.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/TED_talks.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/moxie_machine.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/portfolio-header.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/college_knowledge.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/play.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/martinez_ greg.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/shannon_chris.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/dix_michael.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/mcIntyre_shelley.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/portfolio/product_immersions.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/lazyloadxt.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/script.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/onload.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/inbloom.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/donation_innovation.scss",
+		"/Users/Chris/Sites/intentionalFutures/build/scripts/onload.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/learning_maps.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/empathy_agent.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/bighistory.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/mobile_data.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/product_immersions.scss",
+		"/Users/Chris/Sites/intentionalFutures/build/sass/_mixins.scss",
+		"/Users/Chris/Sites/intentionalFutures/build/css/styles.css",
+		"/Users/Chris/Sites/intentionalFutures/build/sass/product_immersions.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/instagram.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/_variables.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/graphite.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/tedtalks.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/moxie_machine.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/mobile_chronicles.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/fullpage.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/heffernan_rosie.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/wesche_beth.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/walker_chris.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/stewart_andy.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/schmidt_gretchen.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/riker_steven.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/paly_daniel.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/molenkamp_ ryoko.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/masterson_mary_anne.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/lyman_jennie.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/jones_gabriel.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/dog_V.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/chebotareva_ilona.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/coronado_kristenelle.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/charlat_dix_marilyn.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/beasely_jeremy.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/blackman_seth.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_fishtank.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/play-header.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/purpose/what-we-do.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/purpose/envisioning.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/contact/positions/ui-dev.md",
+		"/Users/Chris/Sites/intentionalFutures/templates/who-we-are.jade",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/mcgraw_walt.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/gupta_ priya.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/giuliari_matt.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/people/coxon_kate.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/worst_bands_ever.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_explosion.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_kaleidoscope.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_vintage.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/best_band_never_snapshots.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/best_band_never_timelapse.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_maze.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/iF_tv.md",
+		"/Users/Chris/Sites/intentionalFutures/contents/sass/play.scss",
+		"/Users/Chris/Sites/intentionalFutures/contents/scripts/play_feature.js",
+		"/Users/Chris/Sites/intentionalFutures/contents/play/best_band_never_snapsnots.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.scss",
+			"",
+			"*.scss",
+			"contents/scripts",
+			"/contents/scripts",
+			"*.js",
+			"intentionalFutures/contents/sass",
+			"intentionalFutures/contents/sass/ *.scss",
+			"/contents/sass/ *.scss",
+			"*.md, *.jade",
+			"*.md",
+			"",
+			"*.md",
+			"*.js",
+			"*.md",
+			"*.jade",
+			"",
+			"*.js",
+			"",
+			"*.scss",
+			"*.jade",
+			"*.scss",
+			"",
+			"*.md",
+			"",
+			"*.md",
+			"*.scss",
+			"*.jade",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.jade",
+			"*.scss",
+			"",
+			"*.js",
+			"*.scss",
+			"",
+			"/contents/people",
+			"all",
+			"",
+			"/Users/Chris/Sites/intentionalFutures/contents/purpose/who_we_work_with",
+			"",
+			"tabs.scss",
+			"",
+			"fullscreen_video.js",
+			"",
+			"avenir.scss",
+			"",
+			"*.js",
+			"",
+			"styles.scss",
+			"",
+			"/Users/Chris/Sites/chef-in-the-hat",
+			"new-grid.html",
+			"_grid.scss",
+			"_gird.scss",
+			"",
+			"styles.css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"face",
+			"tap",
+			"lazy",
+			"to-do",
+			"close",
+			"close_any",
+			"return",
+			"out_of",
+			"green",
+			"popstate",
+			");\n",
+			"popstate",
+			"offsetWidth",
+			"initLoad",
+			"console",
+			"console.log",
+			"yes",
+			"robot",
+			"robot_limbs",
+			"seriousError",
+			"communication",
+			"slide_caption",
+			"letter-spacing: 1px",
+			"px",
+			"1px",
+			"nav",
+			".com",
+			"13.7",
+			"marty",
+			"fidelity",
+			"empathy",
+			"product",
+			"inbloom.html",
+			"big his",
+			"ted",
+			"lazyLoadXT",
+			"backstage",
+			"- backstage",
+			"- backstag",
+			"thisPage",
+			"state",
+			"state.url",
+			"dominos",
+			"domino",
+			"importan",
+			"offsetWidth",
+			"more",
+			"has_video",
+			"has_vide",
+			"#fff",
+			"0.9",
+			"active",
+			"0.7",
+			"(11, 219, 212, 0.7)",
+			"rgba(11, 219, 212, 0.7)",
+			"pop_up_color",
+			"social",
+			"black_header",
+			"dismiss",
+			"dive deeper",
+			"&.video",
+			".feature_lp",
+			"video",
+			"feature",
+			"depper",
+			"title",
+			"more_inf",
+			"inner",
+			"<span></span>",
+			"45px",
+			"vh",
+			".fp-slidesNav.bottom",
+			"0 100%",
+			"page_template",
+			"content:\"/",
+			"content: \"/",
+			".case_study",
+			"case_study",
+			".title",
+			".dismiss",
+			"setTimeout",
+			"slidesNav",
+			"slideNav",
+			"dismiss",
+			"fp-tableCell",
+			".fp-tableCell",
+			"            \n",
+			"&:after",
+			"padding-bottom",
+			"img",
+			"@media",
+			"@media and",
+			".fp-slidesNav",
+			"embed-container",
+			"@media and screen",
+			".active",
+			"letter-space: 1px;",
+			"nav_contents",
+			".datum {\n            @include breakpoint(med) {\n                width: 33%;",
+			"column",
+			"dona",
+			"console.log",
+			"viewing-3",
+			"4-1",
+			"4",
+			"blur",
+			"trans",
+			"fp-viewing-0",
+			"fp-viewing-0 ",
+			"viewing-0",
+			"4-1",
+			"4-0",
+			"mobile-her",
+			"datum",
+			"include",
+			"content",
+			"ul li a",
+			"embed-container",
+			"close",
+			":",
+			"feature",
+			"console.log",
+			"wbe",
+			"sortBy",
+			"padding-bottom",
+			"play/assets/images",
+			"images",
+			"insta"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"13.8",
+			"inbloom_data_driven_education.html",
+			"dominoes",
+			"dominoe",
+			"explore",
+			"deeper",
+			"",
+			"thumbnail",
+			".icon_x_close",
+			"extraCopy",
+			"extraTitle",
+			"nav_button",
+			"b_",
+			".background_video",
+			"column.size",
+			"social_block",
+			"ts/2D",
+			"../fonts",
+			"header-font-size1",
+			"$sm",
+			"sm",
+			"@brand-secondary",
+			"4of12",
+			"3of12",
+			"6of12",
+			"12of12",
+			"tab",
+			"//",
+			"",
+			".grid-container"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "build/scss/styles.scss",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/scripts.jade",
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "contents/scss/styles.scss",
+					"settings":
+					{
+						"buffer_size": 156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config.json",
+					"settings":
+					{
+						"buffer_size": 458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/index.jade",
+					"settings":
+					{
+						"buffer_size": 5281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5202,
+								5202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1971.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/layout.jade",
+					"settings":
+					{
+						"buffer_size": 1402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1356,
+								1356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 139.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "contents/scripts/script.js",
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1007,
+								1007
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/Chris/Sites/intentionalFutures/templates/who-we-are.jade",
+					"settings":
+					{
+						"buffer_size": 1507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1098,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "contents/scss/global_styles.scss",
+					"settings":
+					{
+						"buffer_size": 1515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1148,
+								1148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 327.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true
+}
