@@ -5,79 +5,48 @@ block beforeBody
 extends layout
 
 block content
-  div#pagepiling
-    div.section
-      artcile
-        h1 Home Page
-    div.section.if
-      article.project
-        h1
-            a(href="http://www.intentionalfutures.com") Intentional Futures
-        div.project_card
-          div.face.face_front
-            img(src="/images/if_work.gif" title="website development for intentional futures")
-          div.face.face_back
-            h2 Website development
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+   div#pagepiling
+      div.section
+         artcile.about_me
+            div.image_container
+               div.placeholder_image
+            h1 Hi, I'm Chris
+            h2 I'm a Seattle based interactive web developer specalizing in highly polished, elegant and easy to use responsive websites.
+            p These are some of the brands I've worked for, scroll down to learn about select projects, or contact me if you're interested in working together
+            div.brands
+               mixin client(img)
+                  img(src="/images/brands" + img)
 
-      button.btn.btn_show_info Project Details
-    div.section.chefinthehat
-      article.project
-        h1
-            a(href="http://www.intentionalfutures.com") Intentional Futures
-        div.project_card
-          div.face.face_front
-            img(src="/images/if_work.gif" title="website development for intentional futures")
-          div.face.face_back
-            h2 Website development
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               +client('/if.svg')
+               +client('/starbucks.png')
+               +client('/brooks.png')
+               +client('/chefinthehat.png')
+               +client('/bspot.jpg')
+               +client('/glg.png')
+               +client('/tmo.png')
 
-      button.btn.btn_show_info Project Details
-    div.section.starbucks
-      article.project
-        h1
-            a(href="http://www.intentionalfutures.com") Intentional Futures
-        div.project_card
-          div.face.face_front
-            img(src="/images/if_work.gif" title="website development for intentional futures")
-          div.face.face_back
-            h2 Website development
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      button.btn.btn_show_info Project Details
-    div.section.bspot
-      article.project
-        h1
-            a(href="http://www.intentionalfutures.com") Intentional Futures
-        div.project_card
-          div.face.face_front
-            img(src="/images/if_work.gif" title="website development for intentional futures")
-          div.face.face_back
-            h2 Website development
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      button.btn.btn_show_info Project Details
-    div.section.glg
-      article.project
-        h1
-            a(href="http://www.intentionalfutures.com") Intentional Futures
-        div.project_card
-          div.face.face_front
-            img(src="/images/if_work.gif" title="website development for intentional futures")
-          div.face.face_back
-            h2 Website development
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      button.btn.btn_show_info Project Details
-    div.section.tmo
-      article.project
-        h1
-            a(href="http://www.intentionalfutures.com") Intentional Futures
-        div.project_card
-          div.face.face_front
-            img(src="/images/if_work.gif" title="website development for intentional futures")
-          div.face.face_back
-            h2 Website development
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      button.btn.btn_show_info Project Details
+      - var projects = _.chain(contents['projects']._.pages).sortBy(function(item){return item.metadata.order}).value()
+      - var n = 1
+      each project in projects
+         - n++
+         - console.log(n)
+         - var projectTitle = project.metadata.projectTitle
+         - var cssClass = project.metadata.cssClass
+         - var image = project.metadata.image
+         - var imageTitle = project.metadata.imageTitle
+         - var detailsTitle = project.metadata.detailsTitle
+         - var detailsCopy = project.metadata.detailsCopy
+         if projectTitle == null
+            - return
+         else
+            div(class="#{cssClass}").section
+               article.project
+                  h1
+                     a(href="http://"+ link +"" target="_blank")= projectTitle
+                  div.project_card
+                     div.project_details.project_image
+                        img(src="/images/"+ image +"" title=imageTitle)
+                     div.project_details.project_description
+                        h2= detailsTitle
+                        p= detailsCopy
+                  button.btn.btn_show_info Project Info

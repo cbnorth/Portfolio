@@ -31,6 +31,6 @@ $(document).ready(function() {
 
     //project flip card listener
     $(document.body).on('click', '.btn_show_info', function(e) {
-        $(this).prev('.project').find('.project_card').toggleClass('flipped');
+        $(this).closest('.project').find('.project_card').toggleClass('active');
     });
 });
