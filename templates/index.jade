@@ -1,6 +1,6 @@
 extends layout
 block beforeBody
-  - bodyClasses.push('home')
+  - bodyClasses.push('main')
 
 extends layout
 
@@ -11,7 +11,8 @@ block content
             div.image_container
                div.placeholder_image
             h1 Hi, I'm Chris
-            h2 I'm a Seattle based interactive web developer specalizing in highly polished, elegant and easy to use responsive websites.
+            h2 I'm a Seattle based interactive web developer. 
+            h3 I specalize in highly polished, elegant and easy to use responsive websites.
             p These are some of the brands I've worked for, scroll down to learn about select projects, or contact me if you're interested in working together
             div.brands
                mixin client(img)
@@ -24,12 +25,11 @@ block content
                +client('/bspot.jpg')
                +client('/glg.png')
                +client('/tmo.png')
+            button.ui_scroll_down
 
       - var projects = _.chain(contents['projects']._.pages).sortBy(function(item){return item.metadata.order}).value()
       - var n = 1
       each project in projects
-         - n++
-         - console.log(n)
          - var projectTitle = project.metadata.projectTitle
          - var cssClass = project.metadata.cssClass
          - var image = project.metadata.image

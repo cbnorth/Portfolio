@@ -7,7 +7,7 @@
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  *
  * ========================================================== */
-html, body {
+.main {
     overflow:hidden;
     margin:0;
     padding:0;
@@ -50,7 +50,7 @@ html, body {
 }
 .pp-tableCell {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
     width: 100%;
     height: 100%;
 }

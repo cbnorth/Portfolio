@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"tran",
+				"transparent"
+			],
+			[
 				"border",
 				"border-radius"
 			],
@@ -26,10 +30,6 @@
 			[
 				"proj",
 				"project"
-			],
-			[
-				"tran",
-				"transform"
 			],
 			[
 				"projec",
@@ -520,34 +520,18 @@
 	"buffers":
 	[
 		{
+			"file": "templates/resume.jade",
+			"settings":
+			{
+				"buffer_size": 1216,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "templates/index.jade",
 			"settings":
 			{
-				"buffer_size": 2065,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 1855,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contents/scripts/script.js",
-			"settings":
-			{
-				"buffer_size": 1100,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/scripts.jade",
-			"settings":
-			{
-				"buffer_size": 193,
+				"buffer_size": 2075,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +539,7 @@
 			"file": "contents/sass/global_styles.scss",
 			"settings":
 			{
-				"buffer_size": 3483,
+				"buffer_size": 4822,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,7 +547,39 @@
 			"file": "contents/sass/styles.scss",
 			"settings":
 			{
-				"buffer_size": 631,
+				"buffer_size": 1183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contents/sass/resume.scss",
+			"settings":
+			{
+				"buffer_size": 599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contents/sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 1097,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contents/sass/pagepiling.scss",
+			"settings":
+			{
+				"buffer_size": 2666,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1925,
 				"line_ending": "Unix"
 			}
 		}
@@ -612,6 +628,21 @@
 	},
 	"file_history":
 	[
+		"/Users/Chris/Sites/portfolio/staging/contents/resume/index.json",
+		"/Users/Chris/Sites/portfolio/staging/templates/layout.jade",
+		"/Users/Chris/Sites/portfolio/staging/contents/resume/freelance.md",
+		"/Users/Chris/Sites/portfolio/staging/contents/sass/pagepiling.scss",
+		"/Users/Chris/Sites/portfolio/staging/package.json",
+		"/Users/Chris/Sites/portfolio/staging/templates/scripts.jade",
+		"/Users/Chris/Sites/portfolio/staging/contents/scripts/script.js",
+		"/Users/Chris/Sites/portfolio/staging/Gruntfile.js",
+		"/Users/Chris/Sites/portfolio/staging/contents/resume/glg.md",
+		"/Users/Chris/Sites/portfolio/staging/contents/resume/lal.md",
+		"/Users/Chris/Sites/portfolio/staging/contents/resume/if.md",
+		"/Users/Chris/Sites/portfolio/staging/contents/resume/starbucks.md",
+		"/Users/Chris/Sites/portfolio/staging/build/css/styles.css",
+		"/Users/Chris/Sites/portfolio/staging/contents/sass/social_icons.scss",
+		"/Users/Chris/Sites/portfolio/staging/readme.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/tmo.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/starbucks.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/glg.md",
@@ -619,12 +650,9 @@
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/brooks.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/if.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/scss/global_styles.scss",
-		"/Users/Chris/Sites/portfolio/staging/Gruntfile.js",
-		"/Users/Chris/Sites/portfolio/staging/contents/scripts/script.js",
 		"/Users/Chris/Sites/portfolio/Redesign2015/Gruntfile.js",
 		"/Users/Chris/Sites/portfolio/Redesign2015/contents/css/styles.css",
 		"/Users/Chris/Sites/portfolio/staging/config.json",
-		"/Users/Chris/Sites/portfolio/staging/package.json",
 		"/Users/Chris/Sites/intentionalFutures/src/contents/sass/globalstyles.scss",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/bspot.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/chefinthehat.mdown",
@@ -634,10 +662,8 @@
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/starbucks.mdown",
 		"/Users/Chris/Sites/portfolio/staging/contents/projects/glg.mdown",
 		"/Users/Chris/Sites/intentionalFutures/templates/who-we-are.jade",
-		"/Users/Chris/Sites/portfolio/staging/templates/layout.jade",
 		"/Users/Chris/Sites/portfolio/staging/templates/index.jade",
 		"/Users/Chris/Sites/portfolio/staging/contents/scss/styles.scss",
-		"/Users/Chris/Sites/portfolio/staging/templates/scripts.jade",
 		"/Users/Chris/Sites/portfolio/staging/build/scss/styles.scss",
 		"/Users/Chris/Sites/portfolio/staging/.gitignore",
 		"/Users/Chris/Sites/intentionalFutures/templates/purpose-template.jade",
@@ -729,17 +755,7 @@
 		"/Users/Chris/Sites/intentionalFutures/contents/people/stewart_andy.md",
 		"/Users/Chris/Sites/intentionalFutures/contents/people/schmidt_gretchen.md",
 		"/Users/Chris/Sites/intentionalFutures/contents/people/riker_steven.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/paly_daniel.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/molenkamp_ ryoko.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/masterson_mary_anne.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/lyman_jennie.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/jones_gabriel.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/dog_V.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/chebotareva_ilona.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/coronado_kristenelle.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/charlat_dix_marilyn.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/beasely_jeremy.md",
-		"/Users/Chris/Sites/intentionalFutures/contents/people/blackman_seth.md"
+		"/Users/Chris/Sites/intentionalFutures/contents/people/paly_daniel.md"
 	],
 	"find":
 	{
@@ -815,6 +831,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font-family",
+			"overflow",
 			"face",
 			"tap",
 			"lazy",
@@ -940,9 +958,7 @@
 			"wbe",
 			"sortBy",
 			"padding-bottom",
-			"play/assets/images",
-			"images",
-			"insta"
+			"play/assets/images"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -990,23 +1006,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/index.jade",
+					"file": "templates/resume.jade",
 					"settings":
 					{
-						"buffer_size": 2065,
+						"buffer_size": 1216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								919,
-								116
+								123,
+								123
 							]
 						],
 						"settings":
@@ -1023,24 +1039,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Gruntfile.js",
+					"file": "templates/index.jade",
 					"settings":
 					{
-						"buffer_size": 1855,
+						"buffer_size": 2075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								510,
-								514
+								58,
+								58
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 3,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1051,23 +1067,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "contents/scripts/script.js",
+					"file": "contents/sass/global_styles.scss",
 					"settings":
 					{
-						"buffer_size": 1100,
+						"buffer_size": 4822,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								865,
-								865
+								4820,
+								4820
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1079,42 +1095,121 @@
 				},
 				{
 					"buffer": 3,
-					"file": "templates/scripts.jade",
+					"file": "contents/sass/styles.scss",
 					"settings":
 					{
-						"buffer_size": 193,
+						"buffer_size": 1183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								163,
-								163
+								177,
+								177
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 4,
-					"file": "contents/sass/global_styles.scss",
+					"file": "contents/sass/resume.scss",
 					"settings":
 					{
-						"buffer_size": 3483,
+						"buffer_size": 599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "contents/sass/_variables.scss",
+					"settings":
+					{
+						"buffer_size": 1097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "contents/sass/pagepiling.scss",
+					"settings":
+					{
+						"buffer_size": 2666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1477,
+								1477
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 1925,
 						"regions":
 						{
 						},
@@ -1127,38 +1222,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "contents/sass/styles.scss",
-					"settings":
-					{
-						"buffer_size": 631,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								623,
-								623
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 611.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1183,18 +1252,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":

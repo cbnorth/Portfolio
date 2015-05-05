@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-family: 'Asap', sans-serif;
+    font-family: $primary_font;
     letter-spacing: 1px;
     @include font-size(15px);
 }
@@ -13,6 +13,42 @@ body {
 header {
     position: absolute;
 }
+
+.ui_scroll_down {
+    width: 50px;
+    height: 50px;
+    background: red;
+    margin: auto;
+}
+
+.ui_close_button {
+    width: 33px;
+    height: 33px;
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    border: none;
+    background-color: transparent;
+
+    &:before, &:after {
+        content: "";
+        height: 3px;
+        width: 100%;
+        background-color: #222;
+        top: 15px;
+        left: 0;
+        display: block;
+        position: absolute;
+    }
+
+    &:after {
+        @include transform(rotate(130deg));
+    }
+    &:before {
+        @include transform(rotate(-130deg));
+    }
+}
+
 .section {
     background-color: #fff;
     text-align: center;
@@ -150,4 +186,49 @@ header {
             background-color: #e20074;
         }
     }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px 24px 20px;
+
+    .social_icons {
+        width: 50%;
+        float: left;
+        a {
+            color: #222;
+            text-decoration: none;
+            @include font-size(38px);
+            margin: 0 11px;
+        }
+    }
+
+    .links {
+        width: 50%;
+        float: left;
+        text-align: right;
+        a {
+            padding: 21px 10px 0 10px;
+            display: inline-block;
+        }
+    }
+}
+button {
+    outline: none;
+}
+.btn {
+  background: transparent;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  margin-top: 35px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  @include font-size(17px);
+  outline: none;
 }

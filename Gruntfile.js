@@ -2,12 +2,31 @@ module.exports = function(grunt) {
 
     var fs = require("fs");
 
+    grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-sync');
     grunt.loadNpmTasks("grunt-contrib-watch");
+    grunt.loadNpmTasks('grunt-wintersmith');
 
     grunt.initConfig({
+        connect: {
+            server: {
+                options: {
+                    livereload: true,
+                    port: 8080,
+                    base: {
+                        path: "../",
+                        options: {
+                            extensions: ['html']
+                        }
+                    }
+                }
+            }
+        },
+        wintersmith: {
+            build: {}
+        },
         sass: {
             dist: {
                 options: {
@@ -39,6 +58,10 @@ module.exports = function(grunt) {
             options: {
                 livereload: true
             },
+            jade: {
+                files: '**/*.jade',
+                tasks: ['wintersmith']
+            },
             scss: {
                 files: '**/*.scss',
                 tasks: ['sass']
@@ -48,7 +71,7 @@ module.exports = function(grunt) {
                 tasks: ['sync']
             },
             dev: {
-                files: ["contents/scripts/[!script.min.js]*.js"],
+                files: ['contents/scripts/*.js', '!contents/scripts/script.min.js'],
                 tasks: ["browserify"]
             },
             js: {
@@ -62,8 +85,6 @@ module.exports = function(grunt) {
         }
     });
 
-
-    grunt.registerTask("default", ["sass", "uglify", "sync", "watch"]);
-
+    grunt.registerTask("default", ["connect", "wintersmith", "sass", "uglify", "sync", "watch"]);
 
 }

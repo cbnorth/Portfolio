@@ -1,0 +1,33 @@
+extends layout
+block beforeBody
+  - bodyClasses.push('resume')
+
+extends layout
+
+block content
+   a.ui_close_button(href="/")
+   section
+      div.container
+         div.grid
+            div.column
+               h1 Resume 
+                  a(href="/assets/resume.pdf") (download a copy)
+               h2 The sum of my experiences
+
+               section
+                  - var experiences = _.chain(contents['resume']._.pages).sortBy(function(item){return item.metadata.order}).value()
+                  each experience in experiences
+                     - var title = experience.metadata.title
+                     - var time = experience.metadata.time
+                     - var description = experience.metadata.description
+                     if title == null
+                        - return
+                     else
+                        article
+                           h1= title
+                           h2= time
+                           p= description
+               section
+                  article
+                     h1 Web technologies
+                     p HTML5, CSS3, Sass, JavaScript, Jquery, Backbone, Angular, D3, Grunt, Wintersmith, Jade, Node.js, Git, SVN, .NET, PHP &amp; MySQL
