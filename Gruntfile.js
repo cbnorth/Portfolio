@@ -16,7 +16,7 @@ module.exports = function(grunt) {
                     livereload: true,
                     port: 8080,
                     base: {
-                        path: "../",
+                        path: "build",
                         options: {
                             extensions: ['html']
                         }
@@ -49,8 +49,8 @@ module.exports = function(grunt) {
         sync: {
             copy_resources: {
                 files: [
-                    { cwd: 'contents', src: 'css/**', dest: '../public_html' },
-                    { cwd: 'contents', src: 'scripts/script.min.js', dest: '../public_html' }
+                    { cwd: 'contents', src: 'css/**', dest: 'build' },
+                    { cwd: 'contents', src: 'scripts/script.min.js', dest: 'build' }
                 ]
             }
         },
