@@ -8,24 +8,28 @@ block content
    div#pagepiling
       div.section
          artcile.about_me
-            div.image_container
-               div.placeholder_image
-            h1 Hi, I'm Chris
-            h2 I'm a Seattle based interactive web developer. 
-            h3 I specalize in highly polished, elegant and easy to use responsive websites.
-            p These are some of the brands I've worked for, scroll down to learn about select projects, or contact me if you're interested in working together
-            div.brands
-               mixin client(img)
-                  img(src="/images/brands" + img)
+            div.header
+               div.image_container
+                  div.placeholder_image
+               div.copy_container
+                  h1 Hi, I'm Chris
+                  h2 I'm a Seattle based interactive web developer.
+                  h3 I specalize in highly polished, elegant and easy to use responsive websites.
+            div.clear
+               
+               p These are some of the brands I've had the pleasure to work for, scroll down to learn about select projects, or contact me if you're interested in working together.
+               div.brands
+                  mixin client(img)
+                     img(src="/images/brands" + img)
 
-               +client('/if.svg')
-               +client('/starbucks.png')
-               +client('/brooks.png')
-               +client('/chefinthehat.png')
-               +client('/bspot.jpg')
-               +client('/glg.png')
-               +client('/tmo.png')
-            button.ui_scroll_down
+                  +client('/if.svg')
+                  +client('/starbucks.png')
+                  +client('/brooks.png')
+                  +client('/chefinthehat.png')
+                  +client('/bspot.jpg')
+                  +client('/glg.png')
+                  +client('/tmo.png')
+               button.ui_scroll_down
 
       - var projects = _.chain(contents['projects']._.pages).sortBy(function(item){return item.metadata.order}).value()
       - var n = 1

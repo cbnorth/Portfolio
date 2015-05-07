@@ -531,7 +531,7 @@
 			"file": "templates/index.jade",
 			"settings":
 			{
-				"buffer_size": 2075,
+				"buffer_size": 2248,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,15 +539,7 @@
 			"file": "contents/sass/global_styles.scss",
 			"settings":
 			{
-				"buffer_size": 4822,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contents/sass/styles.scss",
-			"settings":
-			{
-				"buffer_size": 1183,
+				"buffer_size": 4851,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,15 +563,23 @@
 			"file": "contents/sass/pagepiling.scss",
 			"settings":
 			{
-				"buffer_size": 2666,
+				"buffer_size": 2669,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gruntfile.js",
+			"file": "contents/scripts/script.js",
 			"settings":
 			{
-				"buffer_size": 1925,
+				"buffer_size": 1256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contents/sass/styles.scss",
+			"settings":
+			{
+				"buffer_size": 1401,
 				"line_ending": "Unix"
 			}
 		}
@@ -628,14 +628,14 @@
 	},
 	"file_history":
 	[
+		"/Users/Chris/Sites/portfolio/staging/package.json",
+		"/Users/Chris/Sites/portfolio/staging/contents/sass/pagepiling.scss",
+		"/Users/Chris/Sites/portfolio/staging/Gruntfile.js",
 		"/Users/Chris/Sites/portfolio/staging/contents/resume/index.json",
 		"/Users/Chris/Sites/portfolio/staging/templates/layout.jade",
 		"/Users/Chris/Sites/portfolio/staging/contents/resume/freelance.md",
-		"/Users/Chris/Sites/portfolio/staging/contents/sass/pagepiling.scss",
-		"/Users/Chris/Sites/portfolio/staging/package.json",
 		"/Users/Chris/Sites/portfolio/staging/templates/scripts.jade",
 		"/Users/Chris/Sites/portfolio/staging/contents/scripts/script.js",
-		"/Users/Chris/Sites/portfolio/staging/Gruntfile.js",
 		"/Users/Chris/Sites/portfolio/staging/contents/resume/glg.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/resume/lal.md",
 		"/Users/Chris/Sites/portfolio/staging/contents/resume/if.md",
@@ -831,6 +831,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"top",
 			"font-family",
 			"overflow",
 			"face",
@@ -957,8 +958,7 @@
 			"console.log",
 			"wbe",
 			"sortBy",
-			"padding-bottom",
-			"play/assets/images"
+			"padding-bottom"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1006,7 +1006,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1042,15 +1042,15 @@
 					"file": "templates/index.jade",
 					"settings":
 					{
-						"buffer_size": 2075,
+						"buffer_size": 2248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								486,
+								486
 							]
 						],
 						"settings":
@@ -1070,15 +1070,15 @@
 					"file": "contents/sass/global_styles.scss",
 					"settings":
 					{
-						"buffer_size": 4822,
+						"buffer_size": 4851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4820,
-								4820
+								257,
+								257
 							]
 						],
 						"settings":
@@ -1095,34 +1095,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "contents/sass/styles.scss",
-					"settings":
-					{
-						"buffer_size": 1183,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "contents/sass/resume.scss",
 					"settings":
 					{
@@ -1150,7 +1122,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "contents/sass/_variables.scss",
 					"settings":
 					{
@@ -1177,19 +1149,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "contents/sass/pagepiling.scss",
 					"settings":
 					{
-						"buffer_size": 2666,
+						"buffer_size": 2669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1477,
-								1477
+								1453,
+								1453
 							]
 						],
 						"settings":
@@ -1199,25 +1171,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 522.0,
+						"translation.y": 537.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "Gruntfile.js",
+					"buffer": 6,
+					"file": "contents/scripts/script.js",
 					"settings":
 					{
-						"buffer_size": 1925,
+						"buffer_size": 1256,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1172,
+								1172
 							]
 						],
 						"settings":
@@ -1227,7 +1199,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 611.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "contents/sass/styles.scss",
+					"settings":
+					{
+						"buffer_size": 1401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1191,
+								1191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 649.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1252,11 +1258,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

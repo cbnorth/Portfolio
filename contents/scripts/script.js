@@ -33,4 +33,8 @@ $(document).ready(function() {
     $(document.body).on('click', '.btn_show_info', function(e) {
         $(this).closest('.project').find('.project_card').toggleClass('active');
     });
+
+    $(document.body).on('click', '.ui_scroll_down', function(e) {
+        $('#pp-nav').find('a.active').parent('li').next('li').find('a').click();
+    });
 });
