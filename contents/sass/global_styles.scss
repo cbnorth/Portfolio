@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Asap:400,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
 
 html {
     font-size: 62.5%;
@@ -12,6 +12,10 @@ body {
 
 header {
     position: absolute;
+}
+
+p {
+    line-height: 2;
 }
 
 .clear {
@@ -46,149 +50,10 @@ header {
     }
 
     &:after {
-        @include transform(rotate(130deg));
+        @include transform(rotate(135deg));
     }
     &:before {
-        @include transform(rotate(-130deg));
-    }
-}
-
-.section {
-    background-color: #fff;
-    text-align: center;
-    border-bottom: 2px solid #000;
-
-    h1 {
-        a {
-            color: #fff;
-        }
-    }
-
-    .project {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        margin: auto;
-        z-index: 1;
-        -webkit-perspective: 1000px;
-        perspective: 1000px;
-
-        .project_card {
-            width: 100%;
-            height: 85%;
-            transform-style: preserve-3d;
-            @include transition(all .33s linear);
-            position: relative;
-            overflow: hidden;
-            line-height: 26px;
-            @include font-size(18px);
-
-            &:after {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                background-color: #222;
-                width: 100%;
-                height: 100%;
-                @include transition(3s all cubic-bezier(.23,1,.32,1));
-                @include transform(scale(2) translateX(-100%) translateY(-100%) translateZ(0) rotate(-45deg));
-                opacity: .3;
-            }
-        }
-
-        .project_details {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            @include transition(2s all cubic-bezier(.23,1,.32,1));
-
-            &.project_description {
-                display: block;
-                box-sizing: border-box;
-                padding: 20px 40px;
-                color: white;
-                text-align: left;
-                z-index: 100;
-                opacity: 0;
-                @include transform(translateY(-300px));
-                @include transition(1s all cubic-bezier(.23,1,.32,1));
-            }
-        }
-
-        img {
-            width: 80%;
-        }
-
-        //active state
-        .project_card {
-            &.active {
-                .project_image {
-                      transform: scale(.8);
-                      opacity: .3;
-                }
-
-                .project_description {
-                    @include transform(translateY(0));
-                    opacity: 1;
-                }
-                &:after {
-                    @include transform(scale(2) rotate(-45deg) translateZ(0));
-                    -webkit-transition-duration: 1s;
-                    transition-duration: 1s;
-                    opacity: .9
-                }
-            }
-        }
-
-        @include breakpoint(med) {
-            width: 700px;
-            height: 700px;
-        }
-    }
-
-    &.if {
-        .project_card:after {
-            background-color: #44dbef;
-        }
-    }
-
-    &.brooks {
-        .project_card:after {
-            background-color: #1678bd;
-        }
-    }
-
-
-    &.chefinthehat {
-        .project_card:after {
-            background-color: #1d61a2;
-        }
-    }
-
-    &.starbucks {
-        .project_card:after {
-            background-color: #006341;
-        }
-    }
-
-    &.bspot {
-        .project_card:after {
-            background-color: #F5821F;
-        }
-    }
-
-    &.glg {
-        .project_card:after {
-            background-color: #00B0D3;
-        }
-    }
-
-    &.tmo {
-        .project_card:after {
-            background-color: #e20074;
-        }
+        @include transform(rotate(-135deg));
     }
 }
 
@@ -197,13 +62,14 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 100;
-    padding: 0 20px 24px 20px;
+    padding: 24px 20px;
+    background-color: #222;
 
     .social_icons {
         width: 50%;
         float: left;
         a {
-            color: #222;
+            color: #fff;
             text-decoration: none;
             @include font-size(38px);
             margin: 0 11px;
@@ -217,6 +83,7 @@ footer {
         a {
             padding: 21px 10px 0 10px;
             display: inline-block;
+            color: #fff;
         }
     }
 }
