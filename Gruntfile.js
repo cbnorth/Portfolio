@@ -50,6 +50,7 @@ module.exports = function(grunt) {
             copy_resources: {
                 files: [
                     { cwd: 'contents', src: 'css/**', dest: 'build' },
+                    { cwd: 'contents', src: 'assets/**', dest: 'build' },
                     { cwd: 'contents', src: 'scripts/script.min.js', dest: 'build' }
                 ]
             }
@@ -68,6 +69,10 @@ module.exports = function(grunt) {
             },
             css: {
                 files: '**/*.css',
+                tasks: ['sync']
+            },
+            img: {
+                files: ['**/*.{png,jpg,gif}'],
                 tasks: ['sync']
             },
             dev: {

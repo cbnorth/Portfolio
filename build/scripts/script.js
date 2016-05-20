@@ -32,6 +32,7 @@ $(document).ready(function() {
            success: function(data) {
               $contactForm.find('.alert--loading').hide();
               $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+              $('input, textarea').fadeOut();
            },
            error: function(err) {
               $contactForm.find('.alert--loading').hide();
