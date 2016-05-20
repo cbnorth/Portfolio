@@ -88,25 +88,29 @@ p, br {
     width: 33px;
     height: 33px;
     position: absolute;
-    top: 30px;
+    top: 37px;
     right: 22px;
     border: none;
     background-color: transparent;
     z-index: 100;
-    padding-top: 32px;
     text-align: center;
-    padding-top: 32px;
+    padding-top: 29px;
     text-align: center;
+    color: $copy_color;
 
     &:before, &:after {
         content: "";
         height: 2px;
-        width: 100%;
-        background-color: #222;
+        width: 25px;
+        background-color: $copy_color;
         top: 15px;
-        left: 0;
+        left: 4px;
         display: block;
         position: absolute;
+    }
+
+    &:hover {
+        color: $copy_color;
     }
 
     &:after {
@@ -118,9 +122,13 @@ p, br {
 
     @include breakpoint(med) {
         position: fixed;
+        padding-top: 32px;
+        top: 30px;
 
         &:before, &:after {
             height: 3px;
+            width: 100%;
+            left: 0;
         }
     }
 }
