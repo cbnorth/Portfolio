@@ -27,6 +27,7 @@ header, #content, footer {
 }
 
 header {
+    padding-top: 50px;
     h1 {
         text-indent: -9999px;
 
@@ -185,6 +186,10 @@ footer {
 
     .copyright {
         width: 100%;
+
+        span {
+            color: $highlight;
+        }
 
         @include breakpoint(med) {
             width: 50%;
