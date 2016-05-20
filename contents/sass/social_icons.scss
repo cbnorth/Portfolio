@@ -11,6 +11,8 @@
 }
 
 .symbol, a.symbol:before {
+    -ms-font-feature-settings:"liga" 1;
+    font-feature-settings:"liga" 1;
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
