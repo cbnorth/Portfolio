@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 
 html {
     font-size: 62.5%;
@@ -8,15 +8,27 @@ body {
     font-family: $primary_font;
     letter-spacing: 1px;
     @include font-size(15px);
+    min-width: 320px; 
+}
+
+//helpers
+.no_break {
+    white-space: nowrap;
 }
 
 header {
     position: absolute;
 }
 
-p {
-    line-height: 2;
+p, br {
+    line-height: 35px;
+
+    @include breakpoint(med) {
+        line-height: 65px;
+    }
 }
+
+
 
 .clear {
     clear: both;
@@ -33,10 +45,11 @@ p {
     width: 33px;
     height: 33px;
     position: fixed;
-    top: 40px;
-    right: 40px;
+    top: 22px;
+    right: 22px;
     border: none;
     background-color: transparent;
+    z-index: 100;
 
     &:before, &:after {
         content: "";
@@ -62,8 +75,8 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 100;
-    padding: 24px 20px;
-    background-color: #222;
+    padding: 13px 20px;
+    background-color: #484747;
 
     .social_icons {
         width: 50%;
@@ -71,8 +84,12 @@ footer {
         a {
             color: #fff;
             text-decoration: none;
-            @include font-size(38px);
+            @include font-size(30px);
             margin: 0 11px;
+
+            &:hover {
+                color: $link;
+            }
         }
     }
 
@@ -81,9 +98,27 @@ footer {
         float: left;
         text-align: right;
         a {
-            padding: 21px 10px 0 10px;
+            padding: 0 10px 2px 10px;
             display: inline-block;
             color: #fff;
+
+            &:hover {
+                color: $link;
+            }
+
+            @media screen and (min-width:370px) {
+                padding: 13px 10px 10px 10px;
+            }
+        }
+    }
+
+    @include breakpoint(med) {
+        padding: 24px 20px;
+
+        .social_icons {
+            a {
+                @include font-size(38px);
+            }
         }
     }
 }
@@ -98,8 +133,13 @@ button {
 }
 
 a {
-  color: #222;
+  color: $link;
   text-decoration: none;
   @include font-size(17px);
   outline: none;
+  @include transition(color .20s ease-in-out);
+
+  &:hover {
+    color: $hover;
+  }
 }
