@@ -85,9 +85,17 @@
         display: block;
         max-width: 800px;
 
-            p {
-                line-height: 35px;
-            }
+        p {
+            line-height: 35px;
+        }
+
+        .photo {
+            background-image:url(/assets/jump.jpg);
+            width: 100%;
+            background-size: 100%;
+            padding-bottom: 46%;
+            margin: 40px 0;
+        }
 
     }
 }
