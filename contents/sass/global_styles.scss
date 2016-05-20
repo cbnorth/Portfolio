@@ -28,6 +28,18 @@ p, br {
     }
 }
 
+#content {
+    opacity: 0;
+    visibility: hidden;
+    @include transform(translateY(10px));
+    @include transition(all .15s ease-in-out);
+
+    &.loaded {
+        opacity: 1;
+        visibility: visible;
+        @include transform(translateY(0px));
+    }
+}
 
 
 .clear {
@@ -67,6 +79,35 @@ p, br {
     }
     &:before {
         @include transform(rotate(-135deg));
+    }
+}
+
+form {
+    input, textarea {
+        width: 100%;
+        padding: 0.625em 1em;
+        border: 2px solid;
+        border-color: #f1f1f1;
+        border-radius: 3px;
+        -webkit-appearance: none;
+        color: #585858;
+        background-color: transparent;
+        box-shadow: none;
+        @include font-size(18px);
+        line-height: 24px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        line-height: 28px;
+    }
+
+    input[type="submit"] {
+
+        @include breakpoint(med) {
+            max-width: 200px;
+        }
     }
 }
 

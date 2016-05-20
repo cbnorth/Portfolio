@@ -1,4 +1,10 @@
 $(document).ready(function() {
+
+    setTimeout(function () {
+        $('#content').addClass('loaded');
+    }, 500);
+    
+
     var wordShowing = null;
     var next = null;
     var numWords = $('.rotating_words span').length
@@ -13,4 +19,26 @@ $(document).ready(function() {
         wordShowing.removeClass('active');
         next.addClass('active');
     }, 3500);
+
+    var $contactForm = $('#contact_form');
+    $contactForm.submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+           url: '//formspree.io/burke.cf@gmail.com',
+           method: 'POST',
+           data: $(this).serialize(),
+           dataType: 'json',
+           beforeSend: function() {
+              $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+           },
+           success: function(data) {
+              $contactForm.find('.alert--loading').hide();
+              $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+           },
+           error: function(err) {
+              $contactForm.find('.alert--loading').hide();
+              $contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+           }
+        });
+    });
 });
