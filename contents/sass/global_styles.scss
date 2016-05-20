@@ -226,6 +226,9 @@ footer {
 
     .copyright {
         width: 100%;
+        p {
+            line-height: 35px;
+        }
 
         span {
             color: $highlight;
