@@ -54,6 +54,7 @@ p, br {
     visibility: hidden;
     margin-top: 50px;
     margin-bottom: 50px;
+    min-height: 650px;
     @include transform(translateY(10px));
     @include transition(all .15s ease-in-out);
 
@@ -169,6 +170,12 @@ footer {
 
             &:hover {
                 color: $hover;
+            }
+
+            &:before {
+                width: 20px;
+                overflow: hidden;
+                display: inline-block;
             }
         }
 
