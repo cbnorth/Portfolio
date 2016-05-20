@@ -80,14 +80,15 @@
 //about
 
 .about {
-    p {
-        line-height: 35px;
-    }
-
     section {
         margin-top: 35px;
         display: block;
         max-width: 800px;
+
+            p {
+                line-height: 35px;
+            }
+
     }
 }
 
