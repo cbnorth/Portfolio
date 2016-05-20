@@ -7,16 +7,20 @@
 @import 'resume';
 
 .home {
-    background-color: #23A3C1
+    //background-color: #23A3C1
+
+    .ui_close_button {
+        display: none;
+    }
 }
 
 #intro {
     width: 80%;
-    margin: 100px 0 0 20px;
+    margin: 50px 0 0 0;
     padding-bottom: 100px;
 
-    h1, h2, h3, p {
-        color: #fff;
+    h1, h2, h3 {
+        color: $copy_color;
         @include font-size(29px);
 
         a {
@@ -29,6 +33,24 @@
 
         @include breakpoint(med) {
             @include font-size(47px);
+        }
+    }
+
+    p {
+        color: $copy_color;
+        @include font-size(20px);
+        line-height: 30px;
+
+        @include breakpoint(sm) {
+            @include font-size(25px);
+        }
+
+        @include breakpoint(med) {
+            @include font-size(35px);
+        }
+
+        br {
+            line-height: 43px;
         }
     }
 
@@ -53,10 +75,6 @@
             }
         }
     }
-
-    @include breakpoint(med) {
-        margin: 100px 0 0 10%;
-    }
 }
 
 .about {
@@ -64,21 +82,9 @@
         line-height: 35px;
     }
 
-    .grid {
-          margin-bottom: 40px;
-    }
-
-    .column {
-        display: block;
-        max-width: 700px;
-        margin: auto;
-    }
-
     section {
-      margin-top: 75px;
-    }
-
-    footer {
-        display: none;
+        margin-top: 35px;
+        display: block;
+        max-width: 800px;
     }
 }

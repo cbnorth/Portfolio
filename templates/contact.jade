@@ -1,25 +1,21 @@
 extends layout
 block beforeBody
-  - bodyClasses.push('about')
+  - bodyClasses.push('contact')
 
 extends layout
 
 block content
-   a.ui_close_button(href="/")
    section
-      div.container
-         div.grid
-            div.column
-               h1 Contact
+      h1 Say hi.
 
-               form#contact_form(action='https://formspree.io/burke.cf@gmail.com', method='POST')
-                  input(type='text', name='name' placeholder="name")
-                  input(type='email', name='_replyto', placeholder="email")
-                  input(type='hidden', name='_subject', value='website contact!')
-                  textarea(name="Message" cols="30" rows="6" placeholder="What's up?")
-                  input(type='text', name='_gotcha', style='display:none')
-                  input(type='text', name='_format', value='plain', style='display:none')
-                  input(type='submit', value='Send')
+      form#contact_form(action='https://formspree.io/burke.cf@gmail.com', method='POST')
+         input(type='text', name='name' placeholder="name")
+         input(type='email', name='_replyto', placeholder="email")
+         input(type='hidden', name='_subject', value='website contact!')
+         textarea(name="Message" cols="30" rows="6" placeholder="What's up?")
+         input(type='text', name='_gotcha', style='display:none')
+         input(type='text', name='_format', value='plain', style='display:none')
+         input(type='submit', value='Send')
 
 
 

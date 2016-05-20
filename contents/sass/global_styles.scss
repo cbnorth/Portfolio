@@ -16,8 +16,28 @@ body {
     white-space: nowrap;
 }
 
+header, #content, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include breakpoint(med) {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
 header {
-    position: absolute;
+    h1 {
+        text-indent: -9999px;
+
+        a {
+            background-image:url(/assets/logo.gif);
+            background-size: 100%;
+            width: 60px;
+            height: 60px;
+            display: block;
+        }
+    }
 }
 
 p, br {
@@ -31,6 +51,8 @@ p, br {
 #content {
     opacity: 0;
     visibility: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
     @include transform(translateY(10px));
     @include transition(all .15s ease-in-out);
 
@@ -83,18 +105,19 @@ p, br {
 }
 
 form {
+    max-width: 600px;
+    margin: 50px 0;
     input, textarea {
         width: 100%;
-        padding: 0.625em 1em;
+        padding: 10px;
         border: 2px solid;
         border-color: #f1f1f1;
-        border-radius: 3px;
         -webkit-appearance: none;
         color: #585858;
         background-color: transparent;
         box-shadow: none;
-        @include font-size(18px);
-        line-height: 24px;
+        @include font-size(15px);
+        line-height: 20px;
         vertical-align: middle;
         margin-bottom: 20px;
     }
@@ -104,6 +127,15 @@ form {
     }
 
     input[type="submit"] {
+        background-color: $button;
+        @include transition(background-color .15s ease-in-out);
+        color: #fff;
+        border: none;
+        border-radius: 0;
+
+        &:hover {
+            background-color: $hover;
+        }
 
         @include breakpoint(med) {
             max-width: 200px;
@@ -112,54 +144,52 @@ form {
 }
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     z-index: 100;
-    padding: 13px 20px;
-    background-color: #484747;
+    overflow: hidden;
+
+    p {
+        line-height: 16px;
+        padding-bottom: 15px;
+    }
 
     .social_icons {
-        width: 50%;
-        float: left;
+        width: 100%;
         a {
-            color: #fff;
+            color: $copy_color;
             text-decoration: none;
-            @include font-size(30px);
-            margin: 0 11px;
+            @include font-size(16px);
+            font-family: inherit;
+            width: 100%;
+            display: block;
+            margin-bottom: 15px;
 
             &:hover {
-                color: $link;
+                color: $hover;
             }
         }
-    }
 
-    .links {
-        width: 50%;
-        float: left;
-        text-align: right;
-        a {
-            padding: 0 10px 2px 10px;
-            display: inline-block;
-            color: #fff;
+        @include breakpoint(med) {
+            width: 50%;
+            float: left;
 
-            &:hover {
-                color: $link;
-            }
-
-            @media screen and (min-width:370px) {
-                padding: 13px 10px 10px 10px;
-            }
-        }
-    }
-
-    @include breakpoint(med) {
-        padding: 24px 20px;
-
-        .social_icons {
             a {
-                @include font-size(38px);
+                width: auto;
+                display: inline;
+                margin-right: 10px;
             }
+        }
+    }
+
+    .copyright {
+        width: 100%;
+
+        @include breakpoint(med) {
+            width: 50%;
+            float: left;
+            text-align: right;
         }
     }
 }
@@ -176,7 +206,7 @@ button {
 a {
   color: $link;
   text-decoration: none;
-  @include font-size(17px);
+  font-size: inherit;
   outline: none;
   @include transition(color .20s ease-in-out);
 

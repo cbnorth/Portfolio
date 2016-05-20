@@ -11,8 +11,6 @@ $(document).ready(function() {
     setInterval(function () {
         var next= $('.rotating_words span.active').next();
         wordShowing = $('.rotating_words span.active');
-        console.log(wordShowing.index());
-        console.log(numWords);
         if (wordShowing.index() == (numWords -1)) {
             next = $('.rotating_words span').first();
         }
@@ -34,6 +32,7 @@ $(document).ready(function() {
            success: function(data) {
               $contactForm.find('.alert--loading').hide();
               $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+              $('input, textarea').fadeOut();
            },
            error: function(err) {
               $contactForm.find('.alert--loading').hide();

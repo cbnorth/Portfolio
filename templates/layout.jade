@@ -23,16 +23,20 @@ html(lang='en' class=bodyClasses)
       link(rel="apple-touch-icon-precomposed" href="/assets/images/apple-touch-icon.png")
       link(rel='stylesheet', href='/css/styles.css')  
   body(class=bodyClasses)
-
+    header
+      h1 
+        a(href="/") Chris Burke
+      a.ui_close_button(href="/")
     div#content
           block content
     footer
       div.social_icons
-        a.symbol.icon(href="https://github.com/chrisburkedev" target="_blank" title='Chris Burke on github') &#xe237;
-        a.symbol.icon(href="https://www.linkedin.com/in/uidevchrisburke" target="_blank" title='Chris Burke on linkedin') &#xe252;
-        a.symbol.icon(href="https://instagram.com/presswanders" target="_blank" title='Chris Burke on Instagram') &#xe300;
-      div.links
-        a(href="/resume") resume
-        a(href="/contact") contact
+        p
+          a.symbol(href='https://github.com/chrisburkedev', target="_blank", title='circlegithub') github
+          a.symbol(href='https://www.linkedin.com/in/uidevchrisburke', target="_blank", title='circlelinkedin') linkedIn
+          a.symbol(href='https://instagram.com/presswanders', target="_blank", title='circleinstagram') instagram
+
+      div.copyright
+        p copyright &copy; 2016
 
     include scripts
