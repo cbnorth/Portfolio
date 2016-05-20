@@ -80,7 +80,7 @@ p, br {
 .ui_close_button {
     width: 33px;
     height: 33px;
-    position: fixed;
+    position: absolute;
     top: 22px;
     right: 22px;
     border: none;
@@ -103,6 +103,10 @@ p, br {
     }
     &:before {
         @include transform(rotate(-135deg));
+    }
+
+    @include breakpoint(med) {
+        position: fixed;
     }
 }
 
