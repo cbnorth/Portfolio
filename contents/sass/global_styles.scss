@@ -27,7 +27,7 @@ header, #content, footer {
 }
 
 header {
-    padding-top: 50px;
+    padding-top: 10px;
     h1 {
         text-indent: -9999px;
 
@@ -38,6 +38,10 @@ header {
             height: 60px;
             display: block;
         }
+    }
+
+    @include breakpoint(med) {
+        padding-top: 50px;
     }
 }
 
@@ -54,7 +58,6 @@ p, br {
     visibility: hidden;
     margin-top: 50px;
     margin-bottom: 50px;
-    min-height: 650px;
     @include transform(translateY(10px));
     @include transition(all .15s ease-in-out);
 
@@ -62,6 +65,10 @@ p, br {
         opacity: 1;
         visibility: visible;
         @include transform(translateY(0px));
+    }
+
+    @include breakpoint(med) {
+        min-height: 650px;
     }
 }
 
@@ -81,7 +88,7 @@ p, br {
     width: 33px;
     height: 33px;
     position: absolute;
-    top: 22px;
+    top: 40px;
     right: 22px;
     border: none;
     background-color: transparent;
